@@ -2,32 +2,27 @@
 
 Documentația publică a proiectului [Signal For All](https://signalforall.ro).
 
-Acest repository conține toate materialele oficiale ale proiectului care pot fi consultate de evaluatori, parteneri, voluntari și public general.
+Acest repository conține materialele oficiale ale proiectului care pot fi consultate de evaluatori, parteneri, voluntari și public general.
 
 ---
 
-## Structură
+## Documente disponibile
 
-- **`anexe/`** — anexe tehnice și pachete pentru evaluatori
-  - NGI Annex Pack (descrierea proiectului, arhitectură, buget, echipă, planificare)
+| Document | Format | Descriere |
+|----------|--------|-----------|
+| `SignalForAll_NGI_Annex_Pack.pdf` | PDF | Anexele NGI: descrierea proiectului, arhitectură tehnică, buget, echipă, planificare. Document principal pentru evaluatori. |
+| `foaie_parcurs_faza_2_complet_v2.docx` | DOCX | Foaia de parcurs Faza II (2027–2028) — pilot instituțional Tier 1, criterii Gate 2, buget detaliat. |
+| `pitch_tier1_signal_for_all_v2.pptx` | PPTX | Pitch deck pentru organizații Tier 1 (accesibilitate, voluntari teren). 13 slide-uri în paleta proiectului. |
+| `pachet_juridic_pilot_v2.docx` | DOCX | Pachet juridic pentru piloturi: Pilot Agreement, Acceptable Use Policy, anexe specifice (incl. Articolul 9 bis pentru autorități publice). |
 
-- **`parcurs/`** — foile de parcurs ale proiectului pe faze
-  - Faza I (2026) — fundație tehnică
-  - Faza II (2027–2028) — pilot instituțional Tier 1
-  - Faza III (2029+) — explorare scalare (planificat)
+---
 
-- **`parteneri/`** — materiale pentru întâlniri și colaborări
-  - Pitch deck pentru organizații Tier 1 (accesibilitate, voluntari teren)
-  - Pachet juridic pilot (acord-cadru, AUP, anexe GDPR)
+## Cum se folosesc documentele
 
-- **`tehnic/`** *(în curs)* — documentație tehnică detaliată
-  - architecture-overview.md — arhitectura generală
-  - ble-transport.md — protocolul BLE între aplicație și nodul Meshtastic
-  - meshtastic-protocol.md — alegerile noastre pe protocolul Meshtastic
-  - spectrum-guidance.md — banda 868 MHz, conformitate ANCOM
-  - hardware-setup.md — configurarea nodurilor
-  - field-test-protocol.md — protocol de testare pe teren
-  - accessibility-test-plan.md — protocol de testare accesibilitate
+- Documentele **DOCX** și **PPTX** se descarcă local — GitHub afișează doar metadata, nu conținutul renderizat
+- Documentele **PDF** se previzualizează în browser dacă ai click pe ele
+
+Pentru o vedere de ansamblu rapidă, începe cu **`SignalForAll_NGI_Annex_Pack.pdf`** — cuprinde toate informațiile esențiale.
 
 ---
 
@@ -35,21 +30,21 @@ Acest repository conține toate materialele oficiale ale proiectului care pot fi
 
 | Categorie | Status |
 |-----------|--------|
-| Anexe NGI | ✅ Complet |
+| Anexe NGI (descriere proiect, arhitectură, buget) | ✅ Complet |
 | Foaie parcurs Faza II | ✅ Complet |
 | Pitch deck Tier 1 | ✅ Complet |
 | Pachet juridic pilot | ✅ Complet |
-| Documentație tehnică detaliată | 🟡 În curs (Faza I) |
+| Documentație tehnică detaliată | 🟡 În curs (Faza I — 2026) |
+
+Documentația tehnică detaliată (architecture-overview, ble-transport, meshtastic-protocol, spectrum-guidance, hardware-setup, field-test-protocol, accessibility-test-plan) va fi adăugată pe parcursul Fazei I, pe măsură ce este consolidată.
 
 ---
 
-## Cum se citesc documentele
+## Versionare
 
-- Documentele DOCX și PPTX se descarcă local (GitHub afișează doar metadata)
-- Documentele MD se renderează direct pe GitHub
-- Documentele PDF se previzualizează în browser
+Documentele sunt versionate prin commit-uri Git. Pentru istoric complet al modificărilor, consultă [istoric commits](https://github.com/signalforall-ro/docs/commits/main).
 
-Pentru o vedere de ansamblu, începe cu **`anexe/NGI-Annex-Pack.pdf`**.
+Versiunile importante vor fi marcate ca [Releases](https://github.com/signalforall-ro/docs/releases) cu changelog dedicat.
 
 ---
 
